@@ -8,7 +8,7 @@
   display: grid;
   gap: 4px;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 2fr 1fr 20fr 1fr;
+  /* grid-template-rows: 2fr 1fr 20fr 1fr; */
 }
 
 .container div {
@@ -113,6 +113,7 @@
   background-color: #ffffff;
   color: black;
   text-align: center;
+  height: 200px;
 }
 
 .card p {

@@ -69,6 +69,7 @@ a:link, a:visited {
 .sidebar {
   width: 300px;
   background: royalblue;
+  box-sizing: border-box;
 }
 
 .card {

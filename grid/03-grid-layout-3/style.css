@@ -44,13 +44,7 @@
 }
 
 .sidebar {
-  background-color: #ff7755;
-  grid-column: 1 / 2;
-  grid-row: 2 / 4;
-  display: grid;
-  grid-template-rows: repeat(4, 1fr);
-  gap: 50px;
-  
+  background-color: #FF7755;
 }
 
 .sidebar .photo {
@@ -73,10 +67,7 @@
 }
 
 .nav {
-  background-color: #ff7755;
-  display: grid;
-  align-items: center;
-  justify-items: stretch;
+  background-color: #FF7755;
 }
 
 .nav ul li {
@@ -134,5 +125,5 @@
 
 .footer p {
   font-size: 13px;
-  font-weight: normal;
+  font-weight: normal;  
 }

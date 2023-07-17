@@ -10,6 +10,7 @@
 
 .menu-title {
   background-color: rgb(163, 162, 162);
+  border-radius: 10px 10px 0 0;
 }
 
 .dropdown-menu {
@@ -17,8 +18,27 @@
   padding: 0;
   margin: 0;
   background-color: rgb(99, 97, 97);
-
   display: none;
+
+  animation: open 0.7s ease-in-out;
+  border-radius: 0 0 10px 10px;
+}
+
+@keyframes open {
+  from {
+    transform: scaleY(0);
+    transform-origin: top;
+  }
+
+  50% {
+    transform: scaleY(1.1);
+    transform-origin: top;
+  }
+
+  to {
+    transform: scaleY(1);
+    transform-origin: top;
+  }
 }
 
 ul.dropdown-menu li:hover {
@@ -28,5 +48,3 @@ ul.dropdown-menu li:hover {
 .visible {
   display: block;
 }
-
-
